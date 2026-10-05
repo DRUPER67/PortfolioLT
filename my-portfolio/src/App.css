@@ -342,6 +342,37 @@ body {
   background: linear-gradient(95deg, #5878e5 0%, #556eb8 38%, #7988bc 100%);
 }
 
+.book.green {
+  background: linear-gradient(95deg, #78d987 0%, #5fbe70 38%, #4fa361 100%);
+}
+
+.book.yellow {
+  background: linear-gradient(95deg, #f8dc54 0%, #f2cf39 38%, #dfb91f 100%);
+}
+
+.book.yellow .afterlight-circle {
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  background: rgba(255, 239, 151, 0.42);
+  right: -24px;
+  top: 52px;
+}
+
+.book.yellow .afterlight-bar {
+  width: 210px;
+  height: 92px;
+  left: 92px;
+  bottom: 78px;
+  background: rgba(130, 100, 25, 0.18);
+  transform: rotate(-24deg);
+}
+
+.book-link:hover .book.yellow .afterlight-bar,
+.book-link:focus-visible .book.yellow .afterlight-bar {
+  transform: rotate(-24deg) translateY(-8px);
+}
+
 .book-spine-light {
   position: absolute;
   top: 0;
@@ -399,6 +430,29 @@ body {
   border-bottom: 170px solid rgba(196, 197, 204, 0.28);
   right: 82px;
   bottom: 64px;
+}
+
+.book.green .green-circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: rgba(213, 244, 199, 0.34);
+  right: 42px;
+  top: 54px;
+}
+
+.book.green .green-rectangle {
+  width: 185px;
+  height: 235px;
+  left: 94px;
+  bottom: -44px;
+  background: rgba(37, 103, 61, 0.18);
+  transform: rotate(-18deg);
+}
+
+.book-link:hover .book.green .green-rectangle,
+.book-link:focus-visible .book.green .green-rectangle {
+  transform: rotate(-18deg) translateY(-8px);
 }
 
 .book-title {
@@ -626,6 +680,20 @@ body {
     border-bottom-width: 145px;
     right: 66px;
     bottom: 52px;
+  }
+
+  .book.yellow .afterlight-circle {
+    width: 165px;
+    height: 165px;
+    right: -20px;
+    top: 44px;
+  }
+
+  .book.yellow .afterlight-bar {
+    width: 170px;
+    height: 76px;
+    left: 74px;
+    bottom: 62px;
   }
 }
 
@@ -869,6 +937,20 @@ body {
     border-bottom-width: 125px;
     right: 54px;
     bottom: 48px;
+  }
+
+  .book.yellow .afterlight-circle {
+    width: 140px;
+    height: 140px;
+    right: -18px;
+    top: 38px;
+  }
+
+  .book.yellow .afterlight-bar {
+    width: 145px;
+    height: 64px;
+    left: 60px;
+    bottom: 54px;
   }
 
   .connect-link {
