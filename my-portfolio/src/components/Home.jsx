@@ -78,7 +78,7 @@ export default function Home() {
                 <span className="book-shape circle"></span>
 
                 <h3 className="book-title">
-                  La Forno
+                  La Forno —
                   <br />
                   Itališkos picerijos prekės ženklo kūrimas
                 </h3>
@@ -108,13 +108,63 @@ export default function Home() {
                 <span className="book-shape triangle"></span>
 
                 <h3 className="book-title">
-                  Pulse Fitness
+                  Pulse Fitness —
                   <br />
                   Socialinių tinklų dizainas
                 </h3>
               </article>
             </div>
           </a>
+
+          {/* AFTERLIGHT */}
+          <a
+            className="book-link book-button"
+            href="/MusicPosters.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Atidaryti Afterlight plakatų seriją"
+          >
+            <div className="book-wrap">
+              <div className="page-stack">
+                <span className="page"></span>
+                <span className="page"></span>
+                <span className="page"></span>
+                <span className="page"></span>
+              </div>
+
+              <article className="book yellow">
+                <span className="book-spine-light"></span>
+                <span className="book-shape afterlight-circle"></span>
+                <span className="book-shape afterlight-bar"></span>
+
+                <h3 className="book-title">
+                  AFTERLIGHT —
+                  <br />
+                  Plakatų serija
+                </h3>
+              </article>
+            </div>
+          </a>
+
+          {/* COMING SOON */}
+          <div className="book-link coming-soon-book" aria-label="Netrukus">
+            <div className="book-wrap">
+              <div className="page-stack">
+                <span className="page"></span>
+                <span className="page"></span>
+                <span className="page"></span>
+                <span className="page"></span>
+              </div>
+
+              <article className="book green">
+                <span className="book-spine-light"></span>
+                <span className="book-shape green-circle"></span>
+                <span className="book-shape green-rectangle"></span>
+
+                <h3 className="book-title">Netrukus</h3>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
 
