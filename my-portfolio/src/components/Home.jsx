@@ -15,7 +15,7 @@ export default function Home() {
 
           <div className="brand-text">
             <span className="brand-name">Pavel Belov </span>
-            <span className="brand-role">- Grafikos dizaineris</span>
+            <span className="brand-role">- Grafinis Dizainas ir Socialiniai Tinklai</span>
           </div>
         </div>
 
@@ -31,9 +31,9 @@ export default function Home() {
 
       <section className="hero">
         <h1 className="hero-title">
-          Kuriu tikslingą vizualinę patirtį, papildytą kūrybine kibirkštimi –
-          grafikos dizaino, vizualinio pasakojimo ir apgalvotos prekės ženklo
-          komunikacijos pagalba.
+          Kuriu tikslingą vaizdinį turinį su kūrybiškumo kibirkštimi –
+          pasitelkdamas grafiniu dizainu,
+          socialiniais tinklais ir apgalvotą skaitmeninę rinkodarą.
         </h1>
 
         <div className="hero-actions">
@@ -51,8 +51,8 @@ export default function Home() {
         <h2 className="section-heading">Portfolio</h2>
 
         <p className="case-intro">
-          Atrinkti projektai grafikos dizaino, prekės ženklų kūrimo, vizualinio
-          identiteto ir kūrybinės komunikacijos srityse.
+          Rinktiniai grafinio dizaino, prekės ženklų įvaizdžio, socialinių tinklų ir skaitmeninės
+          komunikacijos projektai.
         </p>
 
         <div className="book-grid">
@@ -161,7 +161,7 @@ export default function Home() {
                 <span className="book-shape green-circle"></span>
                 <span className="book-shape green-rectangle"></span>
 
-                <h3 className="book-title">Netrukus</h3>
+                <h3 className="book-title">Jau greitai</h3>
               </article>
             </div>
           </div>
@@ -174,18 +174,18 @@ export default function Home() {
         <div className="about-title">Sveiki.</div>
 
         <p className="about-text">
-          Esu Pavelas, grafikos dizaineris, kuriam patinka kurti apgalvotus
-          vizualinius sprendimus, jungiančius stiprias idėjas, aiškią
-          komunikaciją ir išskirtinį vizualinį stilių.
+          Aš esu Pavelas – dizaineris, besidomintis grafiniu dizainu, socialiniais tinklais ir
+          skaitmenine rinkodara. Kuriu apgalvotus vizualinius darbus, pasižyminčius aiškia
+          komunikacija ir išskirtiniu vizualiniu stiliumi.
         </p>
 
         <div className="about-label">Kaip galiu padėti</div>
 
         <p className="about-text">
-          Padėdu prekių ženklams ir komandoms įgyvendinti idėjas pasitelkiant
-          grafikos dizainą, vizualinį identitetą, maketavimą ir kūrybines
-          koncepcijas. Nuo pirmųjų idėjų iki galutinio dizaino kuriu aiškius,
-          įtraukiančius ir tikslingus vizualinius sprendimus.
+          Padedu prekių ženklams ir komandoms įgyvendinti idėjas per grafinį dizainą,
+          socialinių tinklų turinį, vizualinį identitetą ir skaitmeninę rinkodarą. Nuo pradinių idėjų
+          iki išgryninto galutinio turinio – kuriu sprendimus, kurie yra aiškūs, įtraukiantys ir
+          tikslingi.
         </p>
 
         <div className="about-label">Susisiekime</div>
